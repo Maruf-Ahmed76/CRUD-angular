@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+*{
+	font-family:'Roboto', sans-serif;
+	
+}
+body{
+}
+
+/* .table{
+	border: 1px solid rgb(214, 214, 214);
+}
+ */
+.mainContainer{
+	width: 100%;
+}
+.container{
+	border:1px solid #ddd;
+}
+.container hr{
+ border:1px solid rgb(228, 228, 228);
+}
+
+
+
+ td , th  {
+	vertical-align: middle !important;
+}
+
+@media(max-width:460px){
+	.table td th {
+		display: block;
+	}
+}
